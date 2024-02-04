@@ -89,7 +89,7 @@ const FoodCategories = () => {
   </div>
 </div>
 
-<div className="categories" style={{ width: "80%", marginTop: '40px' }}>
+<div className="categories" style={{ width: "80%", marginTop: '200px' }}>
   <h1
     style={{
       color: "#FFD600",
