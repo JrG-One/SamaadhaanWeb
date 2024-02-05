@@ -109,23 +109,23 @@ const FoodCategories = () => {
   }}
 >
   {/* First Row */}
-  <div className="mark" style={{ flexBasis: "calc(16.666% - 0px)", marginBottom: "20px", display: "flex", flexDirection: "column", alignItems: "center", border: "0.5px solid grey", borderRadius: "10px" }}>
+  <div className="mark" style={{ flexBasis: "calc(20% - 20px)", marginBottom: "20px", display: "flex", flexDirection: "column", alignItems: "center", border: "0.5px solid grey", borderRadius: "10px" }}>
     <img src={B1} alt="" style={{ height: "220px", width: "200px", objectFit: "cover", borderRadius: "10px 10px 0 0" }} />
     <p style={{ textAlign: "center", color: "white", fontSize: "30px", overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap", margin: "0", padding: "10px" }}>Rajasthani</p>
   </div>
-  <div className="mark" style={{ flexBasis: "calc(16.666% - 0px)", marginBottom: "20px", display: "flex", flexDirection: "column", alignItems: "center", border: "0.5px solid grey", borderRadius: "10px" }}>
+  <div className="mark" style={{ flexBasis: "calc(20% - 20px)", marginBottom: "20px", display: "flex", flexDirection: "column", alignItems: "center", border: "0.5px solid grey", borderRadius: "10px" }}>
     <img src={B1} alt="" style={{ height: "220px", width: "200px", objectFit: "cover", borderRadius: "10px 10px 0 0" }} />
     <p style={{ textAlign: "center", color: "white", fontSize: "30px", overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap", margin: "0", padding: "10px" }}>Marathi</p>
   </div>
-  <div className="mark" style={{ flexBasis: "calc(16.666% - 0px)", marginBottom: "20px", display: "flex", flexDirection: "column", alignItems: "center", border: "0.5px solid grey", borderRadius: "10px" }}>
+  <div className="mark" style={{ flexBasis: "calc(20% - 20px)", marginBottom: "20px", display: "flex", flexDirection: "column", alignItems: "center", border: "0.5px solid grey", borderRadius: "10px" }}>
     <img src={B1} alt="" style={{ height: "220px", width: "200px", objectFit: "cover", borderRadius: "10px 10px 0 0" }} />
     <p style={{ textAlign: "center", color: "white", fontSize: "30px", overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap", margin: "0", padding: "10px" }}>Marwadi</p>
   </div>
-  <div className="mark" style={{ flexBasis: "calc(16.666% - 0px)", marginBottom: "20px", display: "flex", flexDirection: "column", alignItems: "center", border: "0.5px solid grey", borderRadius: "10px" }}>
+  <div className="mark" style={{ flexBasis: "calc(20% - 20px)", marginBottom: "20px", display: "flex", flexDirection: "column", alignItems: "center", border: "0.5px solid grey", borderRadius: "10px" }}>
     <img src={B1} alt="" style={{ height: "220px", width: "200px", objectFit: "cover", borderRadius: "10px 10px 0 0" }} />
     <p style={{ textAlign: "center", color: "white", fontSize: "30px", overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap", margin: "0", padding: "10px" }}>Gujarati</p>
   </div>
-  <div className="mark" style={{ flexBasis: "calc(16.666% - 0px)", marginBottom: "20px", display: "flex", flexDirection: "column", alignItems: "center", border: "0.5px solid grey", borderRadius: "10px" }}>
+  <div className="mark" style={{ flexBasis: "calc(20% - 20px)", marginBottom: "20px", display: "flex", flexDirection: "column", alignItems: "center", border: "0.5px solid grey", borderRadius: "10px" }}>
     <img src={B1} alt="" style={{ height: "220px", width: "200px", objectFit: "cover", borderRadius: "10px 10px 0 0" }} />
     <p style={{ textAlign: "center", color: "white", fontSize: "30px", overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap", margin: "0", padding: "10px" }}>Bengali</p>
   </div>
@@ -133,23 +133,23 @@ const FoodCategories = () => {
   {/* Repeat the above div structure for other categories in the first row */}
 
   {/* Second Row */}
-  <div className="mark" style={{ flexBasis: "calc(16.666% - 0px)", marginBottom: "20px", display: "flex", flexDirection: "column", alignItems: "center", border: "0.5px solid grey", borderRadius: "10px" }}>
+  <div className="mark" style={{ flexBasis: "calc(20% - 20px)", marginBottom: "20px", display: "flex", flexDirection: "column", alignItems: "center", border: "0.5px solid grey", borderRadius: "10px" }}>
     <img src={B1} alt="" style={{ height: "220px", width: "200px", objectFit: "cover", borderRadius: "10px 10px 0 0" }} />
     <p style={{ textAlign: "center", color: "white", fontSize: "30px", overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap", margin: "0", padding: "10px" }}>South Indian</p>
   </div>
-  <div className="mark" style={{ flexBasis: "calc(16.666% - 0px)", marginBottom: "20px", display: "flex", flexDirection: "column", alignItems: "center", border: "0.5px solid grey", borderRadius: "10px" }}>
+  <div className="mark" style={{ flexBasis: "calc(20% - 20px)", marginBottom: "20px", display: "flex", flexDirection: "column", alignItems: "center", border: "0.5px solid grey", borderRadius: "10px" }}>
     <img src={B1} alt="" style={{ height: "220px", width: "200px", objectFit: "cover", borderRadius: "10px 10px 0 0" }} />
     <p style={{ textAlign: "center", color: "white", fontSize: "30px", overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap", margin: "0", padding: "10px" }}>Mexican</p>
   </div>
-  <div className="mark" style={{ flexBasis: "calc(16.666% - 0px)", marginBottom: "20px", display: "flex", flexDirection: "column", alignItems: "center", border: "0.5px solid grey", borderRadius: "10px" }}>
+  <div className="mark" style={{ flexBasis: "calc(20% - 20px)", marginBottom: "20px", display: "flex", flexDirection: "column", alignItems: "center", border: "0.5px solid grey", borderRadius: "10px" }}>
     <img src={B1} alt="" style={{ height: "220px", width: "200px", objectFit: "cover", borderRadius: "10px 10px 0 0" }} />
     <p style={{ textAlign: "center", color: "white", fontSize: "30px", overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap", margin: "0", padding: "10px" }}>Ittalian</p>
   </div>
-  <div className="mark" style={{ flexBasis: "calc(16.666% - 0px)", marginBottom: "20px", display: "flex", flexDirection: "column", alignItems: "center", border: "0.5px solid grey", borderRadius: "10px" }}>
+  <div className="mark" style={{ flexBasis: "calc(20% - 20px)", marginBottom: "20px", display: "flex", flexDirection: "column", alignItems: "center", border: "0.5px solid grey", borderRadius: "10px" }}>
     <img src={B1} alt="" style={{ height: "220px", width: "200px", objectFit: "cover", borderRadius: "10px 10px 0 0" }} />
     <p style={{ textAlign: "center", color: "white", fontSize: "30px", overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap", margin: "0", padding: "10px" }}>Pahadi</p>
   </div>
-  <div className="mark" style={{ flexBasis: "calc(16.666% - 0px)", marginBottom: "20px", display: "flex", flexDirection: "column", alignItems: "center", border: "0.5px solid grey", borderRadius: "10px" }}>
+  <div className="mark" style={{ flexBasis: "calc(20% - 20px)", marginBottom: "20px", display: "flex", flexDirection: "column", alignItems: "center", border: "0.5px solid grey", borderRadius: "10px" }}>
     <img src={B1} alt="" style={{ height: "220px", width: "200px", objectFit: "cover", borderRadius: "10px 10px 0 0" }} />
     <p style={{ textAlign: "center", color: "white", fontSize: "30px", overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap", margin: "0", padding: "10px" }}>Junglee</p>
   </div>
