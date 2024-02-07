@@ -4,6 +4,9 @@ import React, { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import "./navbar.css";
 import logo from "./images/Group 2.png";
+import { AiOutlineHome } from 'react-icons/ai';
+
+
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);

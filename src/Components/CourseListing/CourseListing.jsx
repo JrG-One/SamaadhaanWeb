@@ -2,6 +2,8 @@ import React from "react";
 import "./CourseListing.css";
 import { useNavigate } from "react-router-dom";
 import VideoPage from "../VideoPage/VideoPage";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 
 
 const CourseListing = () => {
