@@ -6,7 +6,7 @@ import FoodCategories from './Components/FoodCategories/FoodCategories.jsx';
 import CourseListing from './Components/CourseListing/CourseListing.jsx';
 import VideoPage from './Components/VideoPage/VideoPage.jsx';
 import VideoListing from './Components/VideoListing/VideoListing.jsx'
-
+import Footer from './Components/Footer/Footer.jsx';
 const App = () => {
   return (
     <Router>
@@ -19,6 +19,7 @@ const App = () => {
               <VideoListing />
               <FoodCategories />
               <CourseListing />
+              <Footer/>
             </>
           }
         />

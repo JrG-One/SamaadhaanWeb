@@ -1,0 +1,218 @@
+*{
+    color:white;
+    font-family: "Roboto"sans-serif;
+   
+}
+
+.main-footer{
+    background-image: linear-gradient(rgba(4,9,30,0.8),rgba(4,9,30,0.8)),url("vegies.jpg");
+    /* background-repeat: no-repeat; */
+    background-position:cover ;
+    color:white;    
+    padding-top: 3rem;
+    bottom: 0;
+}
+
+.container{    
+    margin:auto;
+    /* min-height: 100vh; */
+    text-align:center;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+} 
+p{
+    color: white;
+}
+.row{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content:space-between; 
+    color: white;
+    margin-bottom: 0.2rem;
+    
+}
+.col{
+    flex-basis: 31%;
+    /* line-height: 17px; */
+    margin-top: 2rem;
+    margin-bottom:5%;
+   
+    padding:20px 12px; 
+    /* box-sizing: border-box;  */
+    justify-content: flex-start;
+    p{
+        color:white;
+        font-weight:600;
+    }
+}
+
+h1{
+    text-align: center;
+    font-weight: 600;
+    margin:10px 0;
+    font-size: 35px;
+    content:"";
+    display:block;
+    color:rgb(255, 255, 255)
+    
+   
+}
+link{
+    color:white
+}
+/* .col h1::after{
+    content:'';
+    width:0%;
+    height:3px;
+    background:white;
+    display:block;
+    margin:auto;
+    transition: 0.5s;
+} */
+/* .col h1:hover::after{width:100%} */
+
+.col h1:hover{
+    cursor: pointer;
+    /* text-shadow:2px 2px 2px white; */
+    /* color:rgb(46, 240, 214); */
+    transition: transform 0.5s;
+    transform: translateY(-10px) scale(1.05);
+    width: 100%;
+}
+p{
+    padding:2px;
+    font-weight:100;
+    opacity:0.6;
+    font-size: 18px;
+}
+
+.col p:hover{
+    cursor:pointer;
+    opacity:1;
+    font-weight: 500;
+}
+.col-sm{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-below{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    margin: 1rem;
+    margin-top: 0;
+}
+
+.footer-bel-links{
+    display: flex;
+    flex-direction: row;
+  
+   
+}
+.footer-bel-links p{
+    font-size:1.2rem;
+    margin-left:3rem;
+    
+}
+a{
+    text-decoration: none;
+}
+.footer-bel-links p:hover{
+    text-decoration: underline;
+}
+
+.footertop {
+    color: white;
+    margin: 2rem;
+    font-size: large;
+}
+.cities{
+    margin:2.5rem;
+    font-size: 1.8rem;
+}
+.sec2{
+    color:white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 2rem;
+    margin-bottom: 1rem
+}
+.box{
+    display:inline-block;
+    text-decoration: none;
+    color:white;
+    border:2px solid white;
+    padding:12px 25px;
+    font-size: 25px;
+    background: transparent;
+    position:relative;
+    border-radius: 7px;
+    margin:0.5rem;
+    box-sizing: border-box;
+}
+.box:hover{
+    cursor:pointer;
+    /* font-weight: bold; */
+    box-shadow:0 0 20px 0 rgba(255, 255, 255, 0.4);
+}
+
+
+@media screen and (max-width:850px){
+ .col h1{
+    font-size: 30px;
+ }
+ .col p{
+    font-size: 15px;
+ }
+ .col{
+   
+    align-items: center;
+    justify-content: space-around;
+    /* margin:1rem */
+    
+}
+.row{
+    justify-content: flex-start;
+    display: block;
+    flex-basis: 50%;
+    /* flex-grow: inherit; */
+}
+}
+@media screen and (max-width:550px){
+    col h1{
+        font-size: 30px;
+     }
+
+    .col{
+        margin:1rem 0
+    }
+    .footer-below{
+        flex-direction: column;
+        justify-content: left;
+    }
+    .footer-bel-links{
+        flex-direction: column;
+    }
+    .footer-bel-links p{
+        margin-left:0rem ;
+        margin-top: 1rem;
+        font-size: 1rem;
+    }
+    .row{
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+    }
+    .box{
+        font-size:1.2rem
+    }
+}
