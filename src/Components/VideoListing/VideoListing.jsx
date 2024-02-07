@@ -1,4 +1,7 @@
 import React, { useEffect } from 'react';
+import './VideoListing.css';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 import b1 from "./images/image 772.png";
 import sm from "./images/Group 11402.png";
 import av from "./images/Group 12203.png";
@@ -7,31 +10,33 @@ function App() {
   useEffect(() => {
     const sections = document.querySelectorAll("section");
 
+    const handleSlideButtons = (videoList, prevButton, nextButton) => {
+      const maxScrollLeft = videoList.scrollWidth - videoList.clientWidth;
+
+      prevButton.style.display = videoList.scrollLeft <= 0 ? "none" : "flex";
+      nextButton.style.display = videoList.scrollLeft >= maxScrollLeft ? "none" : "flex";
+    };
+
     sections.forEach((section, index) => {
       const videoList = section.querySelector(".video-list");
       const prevButton = section.querySelector(`#prev-slide-${index + 1}`);
       const nextButton = section.querySelector(`#next-slide-${index + 1}`);
 
-      const maxScrollLeft = videoList.scrollWidth - videoList.clientWidth;
+      if (videoList && prevButton && nextButton) {
+        prevButton.addEventListener("click", () => {
+          videoList.scrollBy({ left: -videoList.clientWidth, behavior: "smooth" });
+        });
 
-      const handleSlideButtons = () => {
-        prevButton.style.display = videoList.scrollLeft <= 0 ? "none" : "flex";
-        nextButton.style.display = videoList.scrollLeft >= maxScrollLeft ? "none" : "flex";
-      };
+        nextButton.addEventListener("click", () => {
+          videoList.scrollBy({ left: videoList.clientWidth, behavior: "smooth" });
+        });
 
-      prevButton.addEventListener("click", () => {
-        videoList.scrollBy({ left: -videoList.clientWidth, behavior: "smooth" });
-      });
+        videoList.addEventListener("scroll", () => {
+          handleSlideButtons(videoList, prevButton, nextButton);
+        });
 
-      nextButton.addEventListener("click", () => {
-        videoList.scrollBy({ left: videoList.clientWidth, behavior: "smooth" });
-      });
-
-      videoList.addEventListener("scroll", () => {
-        handleSlideButtons();
-      });
-
-      handleSlideButtons();
+        handleSlideButtons(videoList, prevButton, nextButton);
+      }
     });
   }, []); // Empty dependency array means this effect will run once after the initial render
 
