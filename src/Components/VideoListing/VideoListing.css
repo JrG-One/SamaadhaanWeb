@@ -37,7 +37,6 @@
     flex-direction: column;
     overflow: hidden;
     width: 100%;
-    max-width: 1724px;
     margin: 0 auto;
   }
   
@@ -104,7 +103,7 @@
   .slide-button
   {
     position: absolute;
-    top: 33%;
+    top: 150%;
     transform: translateY(-50%);
     font-size: 2rem;
     background: #e6e6e6;
@@ -117,7 +116,7 @@
   
   .slide-button-local {
     position: absolute;
-    top: 95%;
+    top: 191%;
     transform: translateY(-50%);
     font-size: 2rem;
     background: #ffffff;

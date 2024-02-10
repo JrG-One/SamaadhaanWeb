@@ -16,8 +16,8 @@ const App = () => {
           element={
             <>
               <Navbar />
-              <VideoListing />
               <FoodCategories />
+              <VideoListing />
               <CourseListing />
               <Footer/>
             </>
