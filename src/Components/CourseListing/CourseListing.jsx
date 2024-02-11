@@ -1,17 +1,9 @@
 import React from "react";
 import "./CourseListing.css";
-import { useNavigate } from "react-router-dom";
-import VideoPage from "../VideoPage/VideoPage";
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
 
 const CourseListing = () => {
-  const navigate = useNavigate();
-
-  const handleGetCourseClick = () => {
-    navigate('/video-page')
-  };
   return (
     <section>
       <h2>Register for courses |</h2>
@@ -31,7 +23,7 @@ const CourseListing = () => {
           </div>
           <div className="getcourse">
             <h3>1,50,999/- only</h3>
-            <a onClick={handleGetCourseClick}>
+            <a>
               <img
                 src={require("./images/Group 12202 (1).png")}
                 alt="Get the course"
@@ -56,7 +48,7 @@ const CourseListing = () => {
           </div>
           <div className="getcourse">
             <h3>1,50,999/- only</h3>
-            <a onClick={handleGetCourseClick}>
+            <a>
               <img
                 src={require("./images/Group 12202 (1).png")}
                 alt="Get the course"
@@ -83,7 +75,7 @@ const CourseListing = () => {
           </div>
           <div className="getcourse">
             <h3>1,50,999/- only</h3>
-            <a onClick={handleGetCourseClick}>
+            <a>
               <img
                 src={require("./images/Group 12202 (1).png")}
                 alt="Get the course"
@@ -108,7 +100,7 @@ const CourseListing = () => {
           </div>
           <div className="getcourse">
             <h3>1,50,999/- only</h3>
-            <a onClick={handleGetCourseClick}>
+            <a>
               <img
                 src={require("./images/Group 12202 (1).png")}
                 alt="Get the course"
