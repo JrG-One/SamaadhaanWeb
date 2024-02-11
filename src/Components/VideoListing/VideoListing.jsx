@@ -5,8 +5,14 @@ import 'slick-carousel/slick/slick-theme.css';
 import b1 from "./images/image 772.png";
 import sm from "./images/Group 11402.png";
 import av from "./images/Group 12203.png";
+import { useNavigate } from "react-router-dom";
 
 function App() {
+  const navigate = useNavigate();
+
+  const handleGetCourseClick = () => {
+    navigate('/video-page')
+  };
   useEffect(() => {
     const sections = document.querySelectorAll("section");
 
@@ -52,7 +58,7 @@ function App() {
               {/* Your video items */}
               <div className="video-item">
                 <div className="video-card">
-                  <img className="video-thumbnail" src={b1} alt="Video Thumbnail" />
+                  <img className="video-thumbnail" src={b1} alt="Video Thumbnail" onClick={handleGetCourseClick} />
                   <div className="video-details">
                     <div>
                       <h3>Video Title 1</h3>
@@ -65,7 +71,7 @@ function App() {
               </div>
               <div className="video-item">
                 <div className="video-card">
-                  <img className="video-thumbnail" src={b1} alt="Video Thumbnail" />
+                  <img className="video-thumbnail" src={b1} alt="Video Thumbnail" onClick={handleGetCourseClick} />
                   <div className="video-details">
                     <div>
                       <h3>Video Title 1</h3>
@@ -78,7 +84,7 @@ function App() {
               </div>
               <div className="video-item">
                 <div className="video-card">
-                  <img className="video-thumbnail" src={b1} alt="Video Thumbnail" />
+                  <img className="video-thumbnail" src={b1} alt="Video Thumbnail" onClick={handleGetCourseClick}/>
                   <div className="video-details">
                     <div>
                       <h3>Video Title 1</h3>
@@ -91,7 +97,7 @@ function App() {
               </div>
               <div className="video-item">
                 <div className="video-card">
-                  <img className="video-thumbnail" src={b1} alt="Video Thumbnail" />
+                  <img className="video-thumbnail" src={b1} alt="Video Thumbnail" onClick={handleGetCourseClick} />
                   <div className="video-details">
                     <div>
                       <h3>Video Title 1</h3>
@@ -104,7 +110,7 @@ function App() {
               </div>
               <div className="video-item">
                 <div className="video-card">
-                  <img className="video-thumbnail" src={b1} alt="Video Thumbnail" />
+                  <img className="video-thumbnail" src={b1} alt="Video Thumbnail" onClick={handleGetCourseClick}/>
                   <div className="video-details">
                     <div>
                       <h3>Video Title 1</h3>
@@ -117,7 +123,7 @@ function App() {
               </div>
               <div className="video-item">
                 <div className="video-card">
-                  <img className="video-thumbnail" src={b1} alt="Video Thumbnail" />
+                  <img className="video-thumbnail" src={b1} alt="Video Thumbnail" onClick={handleGetCourseClick}/>
                   <div className="video-details">
                     <div>
                       <h3>Video Title 1</h3>
@@ -130,7 +136,7 @@ function App() {
               </div>
               <div className="video-item">
                 <div className="video-card">
-                  <img className="video-thumbnail" src={b1} alt="Video Thumbnail" />
+                  <img className="video-thumbnail" src={b1} alt="Video Thumbnail" onClick={handleGetCourseClick}/>
                   <div className="video-details">
                     <div>
                       <h3>Video Title 1</h3>
@@ -143,7 +149,7 @@ function App() {
               </div>
               <div className="video-item">
                 <div className="video-card">
-                  <img className="video-thumbnail" src={b1} alt="Video Thumbnail" />
+                  <img className="video-thumbnail" src={b1} alt="Video Thumbnail" onClick={handleGetCourseClick}/>
                   <div className="video-details">
                     <div>
                       <h3>Video Title 1</h3>
@@ -156,7 +162,7 @@ function App() {
               </div>
               <div className="video-item">
                 <div className="video-card">
-                  <img className="video-thumbnail" src={b1} alt="Video Thumbnail" />
+                  <img className="video-thumbnail" src={b1} alt="Video Thumbnail" onClick={handleGetCourseClick}/>
                   <div className="video-details">
                     <div>
                       <h3>Video Title 1</h3>
@@ -169,7 +175,7 @@ function App() {
               </div>
               <div className="video-item">
                 <div className="video-card">
-                  <img className="video-thumbnail" src={b1} alt="Video Thumbnail" />
+                  <img className="video-thumbnail" src={b1} alt="Video Thumbnail" onClick={handleGetCourseClick}/>
                   <div className="video-details">
                     <div>
                       <h3>Video Title 1</h3>
@@ -182,7 +188,7 @@ function App() {
               </div>
               <div className="video-item">
                 <div className="video-card">
-                  <img className="video-thumbnail" src={b1} alt="Video Thumbnail" />
+                  <img className="video-thumbnail" src={b1} alt="Video Thumbnail" onClick={handleGetCourseClick} />
                   <div className="video-details">
                     <div>
                       <h3>Video Title 1</h3>
@@ -195,7 +201,7 @@ function App() {
               </div>
               <div className="video-item">
                 <div className="video-card">
-                  <img className="video-thumbnail" src={b1} alt="Video Thumbnail" />
+                  <img className="video-thumbnail" src={b1} alt="Video Thumbnail" onClick={handleGetCourseClick}/>
                   <div className="video-details">
                     <div>
                       <h3>Video Title 1</h3>
@@ -208,7 +214,7 @@ function App() {
               </div>
               <div className="video-item">
                 <div className="video-card">
-                  <img className="video-thumbnail" src={b1} alt="Video Thumbnail" />
+                  <img className="video-thumbnail" src={b1} alt="Video Thumbnail" onClick={handleGetCourseClick}/>
                   <div className="video-details">
                     <div>
                       <h3>Video Title 1</h3>
@@ -221,7 +227,7 @@ function App() {
               </div>
               <div className="video-item">
                 <div className="video-card">
-                  <img className="video-thumbnail" src={b1} alt="Video Thumbnail" />
+                  <img className="video-thumbnail" src={b1} alt="Video Thumbnail" onClick={handleGetCourseClick}/>
                   <div className="video-details">
                     <div>
                       <h3>Video Title 1</h3>
@@ -234,7 +240,7 @@ function App() {
               </div>
               <div className="video-item">
                 <div className="video-card">
-                  <img className="video-thumbnail" src={b1} alt="Video Thumbnail" />
+                  <img className="video-thumbnail" src={b1} alt="Video Thumbnail" onClick={handleGetCourseClick}/>
                   <div className="video-details">
                     <div>
                       <h3>Video Title 1</h3>
@@ -247,7 +253,7 @@ function App() {
               </div>
               <div className="video-item">
                 <div className="video-card">
-                  <img className="video-thumbnail" src={b1} alt="Video Thumbnail" />
+                  <img className="video-thumbnail" src={b1} alt="Video Thumbnail" onClick={handleGetCourseClick}/>
                   <div className="video-details">
                     <div>
                       <h3>Video Title 1</h3>
