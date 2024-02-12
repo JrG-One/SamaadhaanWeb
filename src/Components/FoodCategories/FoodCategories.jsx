@@ -35,8 +35,8 @@ const FoodCategories = () => {
           justifyContent: "space-between",
         }}
       >
-        <div>
-          <h1 style={{ color: "aliceblue", fontSize: "45px", paddingLeft:'87px' }}>
+        <div style={{display:"flex", justifyContent:"left", flexDirection:"column"}}>
+          <h1 style={{ color: "aliceblue", fontSize: "45px", marginLeft:"-190px"}}>
             Services We Provide
           </h1>
           <h2
