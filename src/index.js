@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './Components/Navbar/navbar.jsx';
+import Ad from './Components/Ad/Ad.jsx'
 import FoodCategories from './Components/FoodCategories/FoodCategories.jsx';
 import CourseListing from './Components/CourseListing/CourseListing.jsx';
 import VideoPage from './Components/VideoPage/VideoPage.jsx';
@@ -16,6 +17,7 @@ const App = () => {
           element={
             <>
               <Navbar />
+              <Ad/>
               <FoodCategories />
               <VideoListing />
               <CourseListing />
